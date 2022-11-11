@@ -37,16 +37,17 @@
             android:layout_marginStart="5dp"
             android:layout_marginEnd="21dp"
             android:ems="10"
+            android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:minHeight="48dp"
+            android:nextFocusDown="@id/Studio_Name_EditText"
             app:layout_constraintBottom_toTopOf="@+id/Studio_Name_EditText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/tv_show_title"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="SpeakableTextPresentCheck"
             tools:layout_conversion_absoluteHeight="45dp"
-            tools:layout_conversion_absoluteWidth="230dp"
-            android:importantForAutofill="no" />
+            tools:layout_conversion_absoluteWidth="230dp" />
 
         <TextView
             android:id="@+id/Studio_Title"
