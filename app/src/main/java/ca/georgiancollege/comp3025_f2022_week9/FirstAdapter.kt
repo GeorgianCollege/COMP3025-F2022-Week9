@@ -16,7 +16,7 @@ class FirstAdapter(private val dataSet: Array<TVShow>):
 
         init {
             // Define click listener for the ViewHolder's View.
-            title = view.findViewById(R.id.title)
+            title = view.findViewById(R.id.tv_show_title)
             subTitle = view.findViewById(R.id.subTitle)
         }
     }
